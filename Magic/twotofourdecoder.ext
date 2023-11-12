@@ -29,36 +29,36 @@ node "m1_n44_152#" 2 604.013 -44 152 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 161 10
 node "D1" 1 156.549 -133 129 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 108 0 0 0 0 0 0 0 0 0 0
 node "m1_n133_151#" 2 593.111 -133 151 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 158 106 0 0 0 0 0 0 0 0
 cap "S0" "gnd" 197.048
-cap "S1" "m1_n195_n3#" 131.907
-cap "m1_n195_n3#" "m1_30_3#" 233.682
-cap "m1_46_154#" "D2" 131.907
-cap "D1" "m1_n133_151#" 63.1773
-cap "D3" "m1_n44_152#" 131.907
-cap "m1_27_17#" "m1_54_63#" 135.909
-cap "m1_n195_n3#" "vdd" 564.906
-cap "S1" "m1_30_40#" 131.907
-cap "m1_n195_n3#" "gnd" 1997.93
-cap "S1" "m1_30_3#" 63.1773
-cap "S0" "m1_n195_n3#" 131.907
-cap "m1_27_17#" "m1_30_40#" 63.1773
+cap "m1_n195_n3#" "S1" 131.907
+cap "m1_n44_152#" "D3" 131.907
 cap "S1" "m1_n36_56#" 155.963
+cap "m1_n195_n3#" "gnd" 1997.93
 cap "m1_27_17#" "S1" 136.779
-cap "D0" "vdd" 131.907
+cap "S0" "m1_n195_n3#" 131.907
+cap "m1_n195_n3#" "m1_30_3#" 233.682
+cap "m1_27_17#" "m1_54_63#" 135.909
+cap "vdd" "m1_n195_n3#" 564.906
+cap "D1" "m1_n133_151#" 63.1773
+cap "m1_30_40#" "m1_27_17#" 63.1773
+cap "S1" "m1_30_3#" 63.1773
+cap "m1_30_40#" "S1" 131.907
+cap "vdd" "D0" 131.907
+cap "m1_46_154#" "D2" 131.907
 subcap "gnd" -147.938
 subcap "m1_n195_n3#" -913.385
-cap "AND_3/in1" "AND_0/NAND_0/gnd" 17.6734
-cap "AND_3/in1" "AND_3/NAND_0/a_6_n14#" 68.73
-cap "AND_0/in1" "AND_0/NAND_0/gnd" 20.619
+cap "AND_0/NAND_0/gnd" "AND_3/in1" 17.6734
 cap "AND_0/in1" "AND_0/NAND_0/a_6_n14#" 81.1014
+cap "AND_3/in1" "AND_3/NAND_0/a_6_n14#" 68.73
+cap "AND_0/NAND_0/gnd" "AND_0/in1" 20.619
 subcap "S1" -204.134
-cap "AND_0/in2" "AND_0/gnd" 75.603
-cap "not_0/in" "AND_0/NAND_0/a_6_n14#" 32.4013
 cap "not_0/in" "AND_0/gnd" 8.83671
+cap "AND_0/NAND_0/a_6_n14#" "not_0/in" 32.4013
+cap "AND_0/in2" "AND_0/gnd" 75.603
 subcap "vdd" -1019.44
-cap "not_0/out" "AND_1/gnd" 2.84217e-14
-cap "not_0/out" "not_0/vdd" -1.42109e-14
-cap "not_0/gnd" "not_1/out" 659.808
+cap "not_0/vdd" "not_0/out" -1.42109e-14
+cap "not_1/out" "not_0/gnd" 659.808
 cap "not_1/in" "not_0/gnd" 7.10543e-15
+cap "AND_1/gnd" "not_0/out" 2.84217e-14
 cap "not_1/in" "AND_1/gnd" 274.92
 subcap "m1_n114_78#" -186.128
 cap "AND_0/vdd" "AND_3/out" 1.42109e-14

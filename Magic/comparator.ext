@@ -78,126 +78,126 @@ node "greater" 3 591.53 776 199 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 262 176 116 78 0 
 node "B0" 11 620.558 1042 -3 pdm12c 0 0 25 20 0 0 0 0 0 0 0 0 0 0 293 204 119 80 0 0 0 0 0 0 0 0
 node "a_722_48#" 8 168.047 722 48 pdm12c 0 0 25 20 0 0 0 0 0 0 0 0 0 0 25 20 37 28 0 0 0 0 0 0 0 0
 node "a_159_52#" 8 252.075 159 52 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 43 32 0 0 0 0 0 0 0 0
-cap "B1" "m2_400_180#" 73.6173
-cap "A2" "m2_124_189#" 63.1773
-cap "B2" "m1_307_1#" 131.907
-cap "m1_561_12#" "m2_400_180#" 63.1773
-cap "m1_910_57#" "m1_885_73#" 63.1773
-cap "m1_518_86#" "m1_518_108#" 125.034
-cap "m1_962_5#" "B0" 131.907
-cap "m1_1114_19#" "m1_1111_34#" 69.0684
-cap "m2_1202_127#" "m2_124_189#" 4.176
-cap "m1_251_81#" "m1_248_106#" 236.377
-cap "A0" "m1_751_n9#" 63.1773
-cap "m1_259_9#" "m2_124_189#" 63.1773
-cap "B0" "m1_1031_16#" 97.5423
-cap "m1_925_164#" "m1_1132_154#" 63.1773
-cap "m1_925_164#" "Equal" 1127.17
-cap "m2_1202_127#" "m1_1252_10#" 344.52
-cap "m1_601_0#" "m1_670_11#" 8.2476
-cap "m1_850_n12#" "m2_124_189#" 63.1773
-cap "m2_31_4#" "B3" 76.2273
-cap "m1_518_108#" "m2_400_180#" 63.1773
-cap "m1_744_48#" "m1_751_n9#" 63.1773
-cap "A1" "m2_400_180#" 63.1773
-cap "B1" "m1_670_11#" 114.725
-cap "m1_1252_10#" "m2_124_189#" 63.1773
-cap "m2_1202_127#" "m1_751_n9#" 126.355
-cap "B0" "m2_124_189#" 63.1773
-cap "m1_751_n9#" "m1_744_23#" 63.1773
-cap "m1_751_n9#" "m2_124_189#" 383.685
-cap "m1_927_109#" "m1_885_73#" 74.1564
-cap "B1" "m2_124_189#" 63.1773
-cap "B0" "m1_850_n12#" 71.8773
-cap "m2_124_189#" "m2_400_180#" 532.44
-cap "B2" "m2_124_189#" 73.6173
-cap "m1_518_86#" "m1_751_n9#" 126.355
-cap "m1_248_106#" "m2_124_189#" 73.6173
-cap "m1_251_81#" "m2_124_189#" 63.1773
-cap "m1_925_164#" "m1_865_201#" 63.1773
-cap "m1_1132_154#" "m1_1135_132#" 16.1571
-cap "m1_601_0#" "m1_747_8#" 115.466
-cap "m1_747_8#" "m1_751_n9#" 63.1773
-cap "m1_1058_175#" "m1_1132_154#" 63.1773
-cap "m1_925_164#" "m1_908_186#" 395.143
-cap "m1_751_n9#" "m1_1252_10#" 126.355
-cap "m1_518_86#" "m2_400_180#" 63.1773
-cap "m1_251_81#" "m1_518_86#" 1171.16
-cap "B0" "m1_751_n9#" 63.1773
-cap "m1_100_11#" "B3" 166.272
-cap "A0" "m2_124_189#" 63.1773
-cap "B2" "m1_376_12#" 97.5423
-cap "m1_601_0#" "m1_751_n9#" 114.725
 cap "m1_865_201#" "m1_908_186#" 63.1773
-cap "m1_601_0#" "B1" 114.725
+cap "A2" "m2_124_189#" 63.1773
+cap "m1_751_n9#" "m2_400_180#" 73.6173
+cap "m1_751_n9#" "m1_251_81#" 126.355
+cap "B0" "m2_124_189#" 63.1773
+cap "m1_751_n9#" "m1_747_8#" 63.1773
 cap "m1_850_n12#" "A0" 97.5423
 cap "A1" "m2_124_189#" 63.1773
-cap "m1_751_n9#" "m2_400_180#" 73.6173
-cap "m1_925_164#" "m1_1135_132#" 63.1773
+cap "m1_670_11#" "m1_601_0#" 8.2476
 cap "m1_453_11#" "m1_307_1#" 47.1291
-cap "m1_251_81#" "m1_751_n9#" 126.355
+cap "m1_751_n9#" "m1_601_0#" 114.725
+cap "Equal" "m1_925_164#" 1127.17
+cap "A1" "m2_400_180#" 63.1773
+cap "m1_518_86#" "m1_518_108#" 125.034
+cap "m1_1252_10#" "m2_1202_127#" 344.52
+cap "B1" "m2_124_189#" 63.1773
+cap "B2" "m2_124_189#" 73.6173
+cap "m1_1252_10#" "m2_124_189#" 63.1773
+cap "m1_259_9#" "m2_124_189#" 63.1773
+cap "B3" "m2_31_4#" 76.2273
+cap "m1_1132_154#" "m1_925_164#" 63.1773
+cap "B1" "m2_400_180#" 73.6173
+cap "m2_124_189#" "m2_1202_127#" 4.176
+cap "m1_850_n12#" "B0" 71.8773
+cap "m1_751_n9#" "m1_744_23#" 63.1773
+cap "m2_400_180#" "m2_124_189#" 532.44
+cap "m1_751_n9#" "m1_518_86#" 126.355
+cap "m1_251_81#" "m2_124_189#" 63.1773
+cap "B1" "m1_601_0#" 114.725
+cap "B2" "m1_376_12#" 97.5423
+cap "m1_1135_132#" "m1_1132_154#" 16.1571
+cap "m1_1132_154#" "m1_1058_175#" 63.1773
+cap "m1_751_n9#" "A0" 63.1773
+cap "m1_850_n12#" "m2_124_189#" 63.1773
+cap "m1_1114_19#" "m1_1111_34#" 69.0684
+cap "m1_962_5#" "B0" 131.907
+cap "m1_747_8#" "m1_601_0#" 115.466
+cap "m1_248_106#" "m2_124_189#" 73.6173
+cap "m1_908_186#" "m1_925_164#" 395.143
+cap "m1_1135_132#" "m1_925_164#" 63.1773
+cap "m1_248_106#" "m1_251_81#" 236.377
+cap "m1_744_48#" "m1_751_n9#" 63.1773
+cap "m1_1031_16#" "B0" 97.5423
+cap "m1_885_73#" "m1_927_109#" 74.1564
 cap "m1_1058_175#" "m1_925_164#" 63.1773
+cap "m1_751_n9#" "B0" 63.1773
+cap "m1_518_86#" "m2_400_180#" 63.1773
+cap "m1_518_86#" "m1_251_81#" 1171.16
 cap "greater" "m1_761_188#" 114.725
+cap "m1_100_11#" "B3" 166.272
+cap "m2_400_180#" "m1_518_108#" 63.1773
+cap "A0" "m2_124_189#" 63.1773
+cap "m1_561_12#" "m2_400_180#" 63.1773
+cap "m1_865_201#" "m1_925_164#" 63.1773
+cap "B1" "m1_670_11#" 114.725
+cap "m1_751_n9#" "m1_1252_10#" 126.355
+cap "m1_910_57#" "m1_885_73#" 63.1773
+cap "m1_751_n9#" "m2_1202_127#" 126.355
+cap "m1_751_n9#" "m2_124_189#" 383.685
+cap "B2" "m1_307_1#" 131.907
 subcap "m2_31_4#" -1323.29
 cap "not_0/w_0_0#" "XNOR_0/in2" -1.42109e-14
 subcap "m1_307_1#" -518.385
-cap "AND_0/gnd" "m2_124_189#" -7.10543e-15
-cap "AND_0/gnd" "AND_0/in2" 92.633
+cap "m2_124_189#" "AND_0/gnd" -7.10543e-15
 cap "AND_0/in2" "m2_124_189#" 13.05
+cap "AND_0/in2" "AND_0/gnd" 92.633
 cap "XNOR_1/XOR_0/gnd" "XNOR_1/in1" 17.6734
-cap "not_1/out" "threeinputAND_0/threeinputNAND_0/a_6_n14#" 24.7428
-cap "XNOR_1/XOR_0/in2" "not_1/in" 329.904
-cap "m1_307_1#" "not_1/gnd" 169.861
 cap "XNOR_1/XOR_0/in2" "XNOR_1/XOR_0/m1_58_43#" 65.9808
+cap "threeinputAND_0/threeinputNAND_0/a_6_n14#" "not_1/out" 24.7428
+cap "XNOR_1/XOR_0/in2" "not_1/in" 329.904
+cap "not_1/gnd" "m1_307_1#" 169.861
 subcap "m1_601_0#" -156.835
-cap "threeinputAND_0/not_0/gnd" "threeinputAND_0/in2" 2.84217e-14
 cap "threeinputAND_0/not_0/gnd" "m2_400_180#" -7.10543e-15
+cap "threeinputAND_0/not_0/gnd" "threeinputAND_0/in2" 2.84217e-14
 cap "XNOR_2/in1" "XNOR_2/XOR_0/gnd" 17.6734
 subcap "m1_751_n9#" -5647.9
-cap "m1_601_0#" "not_2/gnd" 527.846
-cap "XNOR_2/XOR_0/m1_58_43#" "XNOR_2/XOR_0/in2" 82.476
-cap "not_2/in" "not_2/w_0_0#" -1.42109e-14
-cap "XNOR_2/XOR_0/m1_58_43#" "m1_751_n9#" -7.10543e-15
-cap "not_2/out" "fourinputAND_0/fourinputNAND_0/a_6_n14#" 16.4952
 cap "XNOR_2/XOR_0/in2" "not_2/in" 148.457
+cap "not_2/gnd" "m1_601_0#" 527.846
+cap "not_2/out" "fourinputAND_0/fourinputNAND_0/a_6_n14#" 16.4952
+cap "XNOR_2/XOR_0/m1_58_43#" "m1_751_n9#" -7.10543e-15
+cap "XNOR_2/XOR_0/in2" "XNOR_2/XOR_0/m1_58_43#" 82.476
+cap "not_2/in" "not_2/w_0_0#" -1.42109e-14
 subcap "m1_850_n12#" -3026.52
-cap "fourinputAND_0/fourinputNAND_0/gnd" "fourinputAND_0/in2" 49.4856
 cap "fourinputAND_0/in3" "fourinputAND_0/in4" 29.4557
+cap "fourinputAND_0/fourinputNAND_0/gnd" "fourinputAND_0/in2" 49.4856
 subcap "m1_910_57#" -95.4618
-cap "fourinputAND_0/not_0/vdd" "XNOR_3/in1" 63.1773
-cap "fourinputAND_0/not_0/vdd" "fourinputAND_0/not_0/gnd" 87.5249
-cap "fourinputAND_0/out" "fourinputAND_0/not_0/gnd" 439.872
 cap "XNOR_3/in1" "fourinputAND_0/not_0/gnd" 17.6734
-cap "fourinputAND_0/not_0/in" "fourinputAND_0/not_0/w_0_0#" -1.42109e-14
-cap "XNOR_3/in1" "XNOR_3/XOR_0/NAND_0/w_0_0#" -1.42109e-14
+cap "fourinputAND_0/out" "fourinputAND_0/not_0/gnd" 439.872
+cap "fourinputAND_0/not_0/vdd" "fourinputAND_0/not_0/gnd" 87.5249
+cap "fourinputAND_0/not_0/w_0_0#" "fourinputAND_0/not_0/in" -1.42109e-14
+cap "XNOR_3/XOR_0/NAND_0/w_0_0#" "XNOR_3/in1" -1.42109e-14
+cap "fourinputAND_0/not_0/vdd" "XNOR_3/in1" 63.1773
 cap "fourinputAND_0/not_0/vdd" "fourinputAND_0/out" 44.1836
 subcap "m1_1089_59#" -281.635
-cap "XNOR_3/in2" "XNOR_3/XOR_0/NAND_0/gnd" 1.42109e-14
+cap "XNOR_3/XOR_0/NAND_0/gnd" "XNOR_3/in2" 1.42109e-14
+cap "fiveinputAND_0/not_0/w_0_0#" "fiveinputAND_0/not_0/in" -1.42109e-14
 cap "fiveinputAND_0/gnd" "fiveinputAND_0/in1" 4.26326e-14
-cap "fiveinputAND_0/not_0/in" "fiveinputAND_0/not_0/w_0_0#" -1.42109e-14
 subcap "m1_1252_10#" -2462.66
 cap "fiveinputAND_0/in4" "fiveinputAND_0/in3" 68.73
 cap "fiveinputAND_0/in5" "fiveinputAND_0/fiveinputNAND_0/out" 16.4952
 subcap "m1_251_81#" -2018.96
-cap "AND_0/out" "AND_0/vdd" -2.84217e-14
-cap "AND_0/vdd" "XNOR_1/XOR_0/gnd" 92.633
 cap "XNOR_1/XOR_0/gnd" "m2_124_189#" 13.05
+cap "AND_0/vdd" "XNOR_1/XOR_0/gnd" 92.633
+cap "AND_0/vdd" "AND_0/out" -2.84217e-14
 cap "AND_0/out" "XNOR_1/XOR_0/gnd" 302.412
 subcap "m1_518_108#" -3.2505
 subcap "m1_518_86#" -1490.75
 cap "XNOR_2/XOR_0/gnd" "m2_400_180#" 13.05
 cap "XNOR_2/XOR_0/gnd" "threeinputAND_0/not_0/vdd" 97.5423
-cap "XNOR_2/XOR_0/vdd" "m1_518_86#" 661.772
+cap "m1_518_86#" "XNOR_2/XOR_0/vdd" 661.772
 cap "XNOR_2/XOR_0/vdd" "m1_751_n9#" 117.45
-cap "fourinputOR_0/not_0/in" "fourinputOR_0/in1" 536.094
+cap "fourinputOR_0/in1" "fourinputOR_0/not_0/in" 536.094
 cap "fourinputOR_0/in3" "fourinputOR_0/fourinputNOR_0/gnd" 22.1229
 cap "fourinputOR_0/fourinputNOR_0/out" "fourinputOR_0/fourinputNOR_0/gnd" 63.1773
 subcap "m1_910_57#" -924.327
 subcap "m1_925_164#" -1754.98
-cap "m1_885_73#" "fourinputAND_0/not_0/vdd" 2.94557
+cap "XNOR_3/XOR_0/NAND_1/gnd" "fourinputAND_0/not_0/vdd" 51.8396
 cap "XNOR_3/XOR_0/NAND_3/w_0_0#" "XNOR_3/XOR_0/NAND_3/vdd" -8.88178e-16
 cap "XNOR_3/XOR_0/NAND_1/gnd" "m1_885_73#" 99.1676
-cap "XNOR_3/XOR_0/NAND_1/gnd" "fourinputAND_0/not_0/vdd" 51.8396
+cap "m1_885_73#" "fourinputAND_0/not_0/vdd" 2.94557
 cap "XNOR_3/XOR_0/vdd" "XNOR_3/XOR_0/NAND_3/gnd" 63.1773
 subcap "m2_1202_127#" -2709.16
 subcap "m1_1135_132#" -471.676
@@ -208,11 +208,11 @@ cap "fourinputAND_1/in3" "fourinputAND_1/in4" 10.44
 cap "fiveinputAND_0/fiveinputNAND_0/out" "m1_751_n9#" 148.457
 subcap "m2_124_189#" -15093.1
 subcap "m2_400_180#" -6886.2
-cap "XNOR_1/vdd'" "m1_251_81#" 453.618
+cap "m1_251_81#" "XNOR_1/vdd'" 453.618
 subcap "m2_400_180#" -6441.76
 cap "m1_518_86#" "XNOR_2/vdd'" 8.83671
 subcap "m1_761_188#" -5.7603
-cap "XNOR_2/XOR_0/vdd" "m1_518_86#" 82.476
+cap "m1_518_86#" "XNOR_2/XOR_0/vdd" 82.476
 subcap "m1_908_186#" -70.6632
 subcap "m1_865_201#" -1266.64
 subcap "Equal" -1221.81
@@ -221,11 +221,11 @@ cap "NOR_0/out" "NOR_0/gnd" 142.886
 cap "fourinputOR_0/fourinputNOR_0/vdd" "NOR_0/out" 261.174
 subcap "m1_925_164#" -870.447
 subcap "Equal" -1270.59
-cap "fourinputOR_0/fourinputNOR_0/out" "fourinputOR_0/fourinputNOR_0/vdd" 35.3469
+cap "fourinputOR_0/fourinputNOR_0/vdd" "fourinputOR_0/fourinputNOR_0/out" 35.3469
 cap "XNOR_3/vdd'" "m1_925_164#" 340.214
-cap "fourinputAND_1/vdd" "fourinputAND_1/fourinputNAND_0/w_0_0#" -7.10543e-15
+cap "fourinputAND_1/fourinputNAND_0/w_0_0#" "fourinputAND_1/vdd" -7.10543e-15
 cap "fourinputAND_1/not_0/vdd" "fourinputAND_1/out" 12.3714
-cap "fourinputAND_1/out" "fourinputAND_1/not_0/vdd" 41.238
+cap "fourinputAND_1/not_0/vdd" "fourinputAND_1/out" 41.238
 merge "fiveinputAND_0/out" "fourinputOR_0/in4" -635.388 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -552 -389 7 -7 0 0 0 0 0 0 0 0
 merge "fourinputOR_0/in4" "m1_925_164#"
 merge "XNOR_1/out" "fourinputAND_1/in3" -2593.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -58 -45 -694 -493 0 0 0 0 0 0 0 0

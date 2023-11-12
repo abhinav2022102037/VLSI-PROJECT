@@ -95,37 +95,37 @@ rect 691 26 709 29
 rect 112 -14 115 14
 rect 317 4 338 7
 rect -53 -17 1292 -14
-use XOR  XOR_3
+use XOR  XOR_0
 timestamp 1699628355
-transform 1 0 1165 0 1 58
+transform 1 0 52 0 1 4
 box -50 -10 103 172
-use fulladder  fulladder_3
+use fulladder  fulladder_0
 timestamp 1699630280
-transform 1 0 1042 0 1 239
+transform 1 0 -71 0 1 186
 box -42 -9 328 368
-use XOR  XOR_2
-timestamp 1699628355
-transform 1 0 795 0 1 41
-box -50 -10 103 172
-use fulladder  fulladder_2
+use fulladder  fulladder_1
 timestamp 1699630280
-transform 1 0 672 0 1 222
+transform 1 0 299 0 1 206
 box -42 -9 328 368
 use XOR  XOR_1
 timestamp 1699628355
 transform 1 0 422 0 1 25
 box -50 -10 103 172
-use fulladder  fulladder_1
+use fulladder  fulladder_2
 timestamp 1699630280
-transform 1 0 299 0 1 206
+transform 1 0 672 0 1 222
 box -42 -9 328 368
-use fulladder  fulladder_0
-timestamp 1699630280
-transform 1 0 -71 0 1 186
-box -42 -9 328 368
-use XOR  XOR_0
+use XOR  XOR_2
 timestamp 1699628355
-transform 1 0 52 0 1 4
+transform 1 0 795 0 1 41
+box -50 -10 103 172
+use fulladder  fulladder_3
+timestamp 1699630280
+transform 1 0 1042 0 1 239
+box -42 -9 328 368
+use XOR  XOR_3
+timestamp 1699628355
+transform 1 0 1165 0 1 58
 box -50 -10 103 172
 << labels >>
 rlabel metal1 29 -20 32 -19 1 B0

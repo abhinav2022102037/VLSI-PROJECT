@@ -46,21 +46,21 @@ rect 141 -5 169 -4
 rect 141 -7 166 -5
 rect 236 -9 266 -7
 rect 236 -10 263 -9
-use AND  AND_3
+use AND  AND_0
 timestamp 1699599481
-transform 1 0 262 0 1 -13
-box -4 1 77 98
-use AND  AND_2
-timestamp 1699599481
-transform 1 0 165 0 1 -9
+transform 1 0 -20 0 1 -4
 box -4 1 77 98
 use AND  AND_1
 timestamp 1699599481
 transform 1 0 70 0 1 -7
 box -4 1 77 98
-use AND  AND_0
+use AND  AND_2
 timestamp 1699599481
-transform 1 0 -20 0 1 -4
+transform 1 0 165 0 1 -9
+box -4 1 77 98
+use AND  AND_3
+timestamp 1699599481
+transform 1 0 262 0 1 -13
 box -4 1 77 98
 << labels >>
 rlabel metal1 -24 -8 -21 -6 2 A3

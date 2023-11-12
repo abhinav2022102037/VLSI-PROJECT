@@ -24,27 +24,27 @@ node "vdd" 1 147.694 6 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 102 0 0 0 0 0 0 0 0
 node "out1" 1 454.259 187 61 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 125 84 0 0 0 0 0 0 0 0
 node "out2" 1 454.259 97 62 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 125 84 0 0 0 0 0 0 0 0
 node "out3" 1 454.259 6 62 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 125 84 0 0 0 0 0 0 0 0
-cap "vdd" "out3" 131.907
-cap "m1_187_85#" "out1" 131.907
-cap "in2" "in1" 494.856
-cap "m1_105_n9#" "in2" 97.5423
-cap "out2" "m1_97_86#" 131.907
-cap "in2" "enable" 63.1773
-cap "m1_14_n9#" "enable" 114.725
-cap "m1_105_n9#" "in1" 104.415
+cap "out3" "vdd" 131.907
 cap "enable" "in1" 63.1773
-cap "m1_105_n9#" "enable" 82.3368
-cap "m1_195_n11#" "enable" 149.09
+cap "enable" "m1_105_n9#" 82.3368
+cap "enable" "in2" 63.1773
+cap "m1_97_86#" "out2" 131.907
+cap "enable" "m1_195_n11#" 149.09
+cap "enable" "m1_14_n9#" 114.725
+cap "m1_187_85#" "out1" 131.907
+cap "m1_105_n9#" "in1" 104.415
+cap "in2" "in1" 494.856
+cap "in2" "m1_105_n9#" 97.5423
 subcap "enable" -556.49
 subcap "vdd" -86.586
 subcap "out3" -170.293
-cap "AND_1/NAND_0/gnd" "AND_0/in1" 17.6734
-cap "AND_0/in1" "AND_0/NAND_0/a_6_n14#" 68.73
 cap "AND_1/NAND_0/gnd" "AND_1/in1" -1.42109e-14
+cap "AND_0/NAND_0/a_6_n14#" "AND_0/in1" 68.73
+cap "AND_1/NAND_0/gnd" "AND_0/in1" 17.6734
 subcap "m1_97_86#" -71.0277
 subcap "out2" -170.293
-cap "AND_1/in2" "AND_1/NAND_0/w_32_0#" -1.42109e-14
-cap "AND_2/NAND_0/gnd" "enable" 445.37
+cap "enable" "AND_2/NAND_0/gnd" 445.37
+cap "AND_1/NAND_0/w_32_0#" "AND_1/in2" -1.42109e-14
 subcap "m1_187_85#" -218.188
 subcap "out1" -155.383
 cap "AND_3/in1" "AND_3/NAND_0/gnd" 351.898

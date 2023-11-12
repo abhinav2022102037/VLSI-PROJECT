@@ -23,14 +23,14 @@ rect 157 126 192 129
 rect 189 102 192 126
 rect 189 99 194 102
 rect 185 72 188 88
-use fourinputNAND  fourinputNAND_0
-timestamp 1699642147
-transform 1 0 61 0 1 102
-box -1 -37 125 28
 use not  not_0
 timestamp 1698566035
 transform 1 0 198 0 1 105
 box 0 -21 25 19
+use fourinputNAND  fourinputNAND_0
+timestamp 1699642147
+transform 1 0 61 0 1 102
+box -1 -37 125 28
 << labels >>
 rlabel metal1 61 121 65 122 3 vdd
 rlabel metal1 61 74 65 75 3 gnd

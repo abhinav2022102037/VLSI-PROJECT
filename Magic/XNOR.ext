@@ -15,16 +15,16 @@ node "m1_79_182#" 1 73.9011 79 182 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69 52 0 0 0 0 
 node "vdd" 2 177.211 112 219 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 122 0 0 0 0 0 0 0 0 0 0
 equiv "vdd" "vdd'"
 cap "vdd" "out" 228.129
-cap "m1_101_123#" "vdd" 68.73
+cap "vdd" "m1_101_123#" 68.73
 subcap "m1_101_123#" -751.976
-cap "XOR_0/out" "not_0/gnd" 20.619
+cap "not_0/gnd" "XOR_0/out" 20.619
 subcap "m1_101_123#" -76.1064
 subcap "out" -53.412
-cap "XOR_0/NAND_3/vdd" "XOR_0/NAND_3/gnd" 87.9201
 cap "XOR_0/NAND_2/out" "XOR_0/NAND_3/gnd" 74.1564
+cap "XOR_0/NAND_3/vdd" "XOR_0/NAND_3/gnd" 87.9201
 subcap "out" -159.823
 subcap "vdd" -80.6436
-cap "not_0/vdd" "not_0/out" -7.10543e-15
+cap "not_0/out" "not_0/vdd" -7.10543e-15
 merge "not_0/out" "out" -21.672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "not_0/gnd" "XOR_0/NAND_3/gnd" -134.104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
 merge "XOR_0/NAND_3/gnd" "m1_101_123#"

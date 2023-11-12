@@ -18,14 +18,14 @@ rect 72 25 77 30
 rect 72 -18 77 -13
 << metal2 >>
 rect 73 -13 76 25
-use NOR  NOR_0
-timestamp 1698585264
-transform 1 0 1 0 1 37
-box -1 -38 74 19
 use NOT  NOT_0
 timestamp 1698566035
 transform 1 0 80 0 1 21
 box 0 -21 25 19
+use NOR  NOR_0
+timestamp 1698585264
+transform 1 0 1 0 1 37
+box -1 -38 74 19
 << labels >>
 rlabel metal1 72 -20 77 -18 1 in2
 rlabel metal1 102 15 104 18 7 out

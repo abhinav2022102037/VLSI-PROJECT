@@ -4,8 +4,8 @@ tech scmos
 style TSMC0.18um(tsmc18)from:t11b
 scale 1000 1 9
 resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
-use enable1 enable1_0 1 0 47 0 1 18
 use enable1 enable1_1 1 0 422 0 1 20
+use enable1 enable1_0 1 0 47 0 1 18
 node "B1" 0 11.9154 544 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0
 node "B2" 0 11.9154 538 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0
 node "B0" 0 11.9154 724 5 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0
@@ -28,22 +28,22 @@ node "A_out1" 0 17.187 234 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 14 0 0 0 0 0 0 
 node "A_out2" 0 17.187 144 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0
 node "A_out3" 0 17.187 53 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0
 cap "m1_330_4#" "En" 105.295
-cap "m1_330_4#" "B3" 86.7419
-cap "A2" "A1" 27.492
-cap "A0" "En" 63.1773
-cap "m1_330_4#" "A0" 41.2191
-cap "B2" "B1" 27.492
-cap "En" "B3" 63.1773
 cap "m1_317_106#" "A_out0" 63.1773
+cap "A0" "En" 63.1773
+cap "B3" "En" 63.1773
+cap "A2" "A1" 27.492
+cap "A0" "m1_330_4#" 41.2191
+cap "B3" "m1_330_4#" 86.7419
+cap "B1" "B2" 27.492
 cap "enable1_0/in2" "enable1_0/in1" -1.06581e-14
 subcap "En" -896.657
-cap "enable1_0/in0" "enable1_0/AND_3/gnd" 21.9582
-cap "enable1_1/in3" "enable1_0/AND_3/gnd" 5.89114
+cap "enable1_1/AND_0/NAND_0/gnd" "enable1_1/in3" 5.89114
+cap "enable1_0/in0" "enable1_1/AND_0/NAND_0/gnd" 21.9582
 cap "enable1_1/in1" "enable1_1/in2" -1.06581e-14
-cap "enable1_0/AND_3/not_0/vdd" "enable1_0/out0" 1.42109e-14
+cap "enable1_1/AND_0/vdd" "enable1_0/out0" 1.42109e-14
 merge "enable1_0/out3" "A_out3" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
-merge "enable1_1/AND_0/NAND_0/gnd" "enable1_0/AND_3/gnd" -88.8234 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
-merge "enable1_0/AND_3/gnd" "m1_330_4#"
+merge "enable1_0/AND_3/gnd" "enable1_1/AND_0/NAND_0/gnd" -88.8234 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
+merge "enable1_1/AND_0/NAND_0/gnd" "m1_330_4#"
 merge "enable1_0/gnd" "gnd" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "enable1_1/enable" "enable1_0/enable" -945.863 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -361 -277 -142 -122 0 0 0 0 0 0 0 0
 merge "enable1_0/enable" "En"
@@ -59,8 +59,8 @@ merge "enable1_1/in3" "B3" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0
 merge "enable1_0/in0" "A0" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "enable1_0/out0" "A_out0" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "enable1_0/in1" "A1" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
-merge "enable1_1/AND_0/vdd" "enable1_0/AND_3/not_0/vdd" -65.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
-merge "enable1_0/AND_3/not_0/vdd" "m1_317_106#"
+merge "enable1_0/AND_3/not_0/vdd" "enable1_1/AND_0/vdd" -65.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "enable1_1/AND_0/vdd" "m1_317_106#"
 merge "enable1_0/out1" "A_out1" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
 merge "enable1_0/in2" "A2" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "enable1_0/out2" "A_out2" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0

@@ -19,24 +19,24 @@ node "m1_58_133#" 1 132.185 58 133 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0
 node "m1_n8_112#" 1 106.044 -8 112 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 68 0 0 0 0 0 0 0 0 0 0
 node "vdd" 2 248.051 59 156 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 246 170 0 0 0 0 0 0 0 0 0 0
 node "out" 0 17.187 28 170 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0
-cap "m1_n8_112#" "gnd" 103.612
-cap "in1" "gnd" 733.241
-cap "m1_21_75#" "m1_14_57#" 107.147
-cap "m1_58_43#" "in2" 63.1773
+cap "gnd" "in1" 733.241
 cap "m1_58_43#" "m1_14_57#" 11.7823
+cap "m1_21_75#" "m1_14_57#" 107.147
+cap "in2" "m1_58_43#" 63.1773
+cap "gnd" "m1_n8_112#" 103.612
 subcap "in2" -217.805
 subcap "m1_58_43#" -931.262
 subcap "m1_22_98#" -304.498
 cap "NAND_1/gnd" "NAND_0/vdd" 70.6937
 cap "NAND_1/vdd" "NAND_2/w_0_0#" -1.77636e-15
 cap "NAND_1/gnd" "NAND_2/a_6_n14#" 27.492
-cap "NAND_0/out" "NAND_1/gnd" 41.9166
+cap "NAND_1/gnd" "NAND_0/out" 41.9166
 subcap "m1_58_43#" -279.764
 cap "NAND_2/gnd" "NAND_0/vdd" 176.734
 cap "NAND_2/gnd" "NAND_0/in2" 23.5646
 subcap "m1_58_133#" -46.8236
-cap "NAND_3/gnd" "NAND_1/out" 10.44
-cap "NAND_2/vdd" "NAND_2/w_32_0#" 6.222
+cap "NAND_1/out" "NAND_3/gnd" 10.44
+cap "NAND_2/w_32_0#" "NAND_2/vdd" 6.222
 merge "NAND_3/in1" "NAND_1/out" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
 merge "NAND_1/out" "m1_n8_112#"
 merge "NAND_2/in2" "NAND_0/in2" -7.1868 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 -16 0 0 0 0 0 0 0 0 0 0
