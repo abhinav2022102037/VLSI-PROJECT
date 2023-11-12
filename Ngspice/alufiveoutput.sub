@@ -1,0 +1,23 @@
+.subckt alufiveoutput S0 S1 A3 A2 A1 A0 B3 B2 B1 B0 X3 X2 X1 X0 carry vdd gnd
+
+   X86 S0 S1 D0 D1 D2 D3 vdd gnd twotofourdecoder
+   X87 D0 D1 Dupdated vdd gnd OR
+   X88 Dupdated A3 A2 A1 A0 B3 B2 B1 B0 A03 A02 A01 A00 B03 B02 B01 B00 vdd gnd enable
+   X89 D2 A3 A2 A1 A0 B3 B2 B1 B0 A23 A22 A21 A20 B23 B22 B21 B20 vdd gnd enable
+   X90 D3 A3 A2 A1 A0 B3 B2 B1 B0 A33 A32 A31 A30 B33 B32 B31 B30 vdd gnd enable
+   X91 S0 A03 A02 A01 A00 B03 B02 B01 B00 S03 S02 S01 S00 carrytemp vdd gnd addersubtractor
+   X92 A23 A22 A21 A20 B23 B22 B21 B20 equal lesser greater vdd gnd comparator
+   X93 A33 A32 A31 A30 B33 B32 B31 B30 S33 S32 S31 S30 vdd gnd andblock
+   X94 equal D2 equalupdated vdd gnd AND
+   X97 greater S00 S30 X0 vdd gnd 3inputOR
+   X98 equalupdated S01 S31 X1 vdd gnd 3inputOR
+   X99 lesser S02 S32 X2 vdd gnd 3inputOR
+   X100 S03 S33 X3 vdd gnd OR
+   X101 carrytemp Dupdated carry vdd gnd AND
+
+
+
+
+
+
+.ends alufiveoutput
